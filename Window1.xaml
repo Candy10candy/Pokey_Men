@@ -1,0 +1,32 @@
+﻿<Window x:Class="Pokey_Men.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokey_Men"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Background="Cornsilk">
+    <Grid>
+        <Button Name="Attack1" Content="Attack 1: 6 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="30,287,0,0" Height="52" Click="Attack1_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
+        <Button Name="Attack2" Content="Attack 2: 3 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="159,287,0,0" Height="52" Click="Attack2_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
+        <Button Name="Attack3" Content="Attack 3: 1 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="30,344,0,0" Height="52" Click="Attack3_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
+        <Button Name="Attack4" Content="Attack 4: 0 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="159,344,0,0" Height="52" Click="Attack4_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
+        <Button Name="Heal" Content="Heal 25 HP x2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="288,287,0,0" Height="52" Click="Heal_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
+        <ProgressBar Name="YourHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="193,235,0,0" Foreground="LimeGreen"/>
+        <ProgressBar Name="EnemyHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="525,154,0,0" Foreground="LimeGreen"/>
+        <Label Name="YourName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,99,0,0" Width="205"/>
+        <Label Name="EnemyName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,11,0,0" Width="225"/>
+        <Label Name="YourHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="193,250,0,0" Width="130"/>
+        <Label Name="EnemyHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,169,0,0" Width="130"/>
+        <Label Name="EnergyLabel" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,50,0,0"/>
+        <ProgressBar Name="EnergyBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="60,35,0,0" Foreground="Goldenrod"/>
+        <Image Name="YouSprite" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="41,130,0,0"/>
+        <Image Name="EnemySprite" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="650,42,0,0"/>
+        <Image Name="YouHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="159,226,0,0" Source="health.png"/>
+        <Image Name="EnemyHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="487,147,0,0" Source="health.png"/>
+        <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="30,25,0,0" Source="energy.png"/>
+        <Button Name="FleeButton" Content="Flee" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="288,344,0,0" Height="52" Background="LightBlue" BorderBrush="CornflowerBlue" Click="FleeButton_Click" />
+
+
+    </Grid>
+</Window>

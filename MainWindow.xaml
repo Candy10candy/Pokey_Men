@@ -1,0 +1,18 @@
+﻿<Window x:Class="Pokey_Men.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pokey_Men"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Cornsilk">
+    <Grid>
+        <Button Name="SparkyButton" Content="Sparky Sparky Boom Man" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="36,171,0,0" Height="67" Click="SparkyButton_Click" Background="IndianRed" BorderBrush="DarkRed"/>
+        <Button Name="DampButton" Content="Ocean Man" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="305,171,0,0" Height="67" Click="DampButton_Click" Background="Cyan" BorderBrush="CadetBlue"/>
+        <Button Name="LeafButton" Content="Literally Just A Leaf" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="571,171,0,0" Height="67" Click="LeafButton_Click" BorderBrush="Green"  Background="LimeGreen"/>
+        <Label Content="Choose your fighter!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="138,33,0,0" Height="92" Width="567" FontSize="50"/>
+
+
+
+    </Grid>
+</Window>
