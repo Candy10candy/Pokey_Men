@@ -7,10 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="Cornsilk">
     <Grid>
-        <Button Name="SparkyButton" Content="Sparky Sparky Boom Man" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="36,171,0,0" Height="67" Click="SparkyButton_Click" Background="IndianRed" BorderBrush="DarkRed"/>
-        <Button Name="DampButton" Content="Ocean Man" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="305,171,0,0" Height="67" Click="DampButton_Click" Background="Cyan" BorderBrush="CadetBlue"/>
-        <Button Name="LeafButton" Content="Literally Just A Leaf" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="571,171,0,0" Height="67" Click="LeafButton_Click" BorderBrush="Green"  Background="LimeGreen"/>
-        <Label Content="Choose your fighter!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="138,33,0,0" Height="92" Width="567" FontSize="50"/>
+        <Button Name="StartButton" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="317" Margin="239,187,0,0" Height="138" Click="StartButton_Click" Background="LightBlue" BorderBrush="CornflowerBlue" FontSize="50"/>
+        <Label Content="Instructions:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="178" FontSize="30" Margin="32,10,0,0"/>
+        <TextBlock Text="Fight the opponent team! Choose your attack each turn. The more energy it takes, the stronger it is! You will regain 2 energy at the start of each round. You can heal 25 health on any of your three fighters, but be careful! You only have two healing potions!" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="44,67,0,0" FontSize="20" Width="723" Height="115"/>
 
 
 

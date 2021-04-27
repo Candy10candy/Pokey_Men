@@ -30,13 +30,21 @@ namespace Pokey_Men.Properties
 
         }
 
-        
-     
+        private int energy;
+        public int Energy
+        {
+            get
+            { return energy; }
+            set
+            { energy = value; }
+
+        }
+
         public Man(int a, int h)
         {
             this.attack = a;
             this.health = h;
-           
+            this.energy = 10;
          
         
         }

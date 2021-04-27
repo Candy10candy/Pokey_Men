@@ -12,21 +12,24 @@
         <Button Name="Attack3" Content="Attack 3: 1 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="30,344,0,0" Height="52" Click="Attack3_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
         <Button Name="Attack4" Content="Attack 4: 0 Energy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="159,344,0,0" Height="52" Click="Attack4_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
         <Button Name="Heal" Content="Heal 25 HP x2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="288,287,0,0" Height="52" Click="Heal_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
-        <ProgressBar Name="YourHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="193,235,0,0" Foreground="LimeGreen"/>
-        <ProgressBar Name="EnemyHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="525,154,0,0" Foreground="LimeGreen"/>
-        <Label Name="YourName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,99,0,0" Width="205"/>
-        <Label Name="EnemyName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,11,0,0" Width="225"/>
-        <Label Name="YourHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="193,250,0,0" Width="130"/>
-        <Label Name="EnemyHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,169,0,0" Width="130"/>
+        <ProgressBar Name="YourHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="75,244,0,0" Foreground="LimeGreen"/>
+        <ProgressBar Name="EnemyHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="639,152,0,0" Foreground="LimeGreen"/>
+        <Label Name="YourName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,84,0,0" Width="205"/>
+        <Label Name="EnemyName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="646,10,0,0" Width="136"/>
+        <Label Name="YourHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,259,0,0" Width="130"/>
+        <Label Name="EnemyHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="639,167,0,0" Width="130"/>
         <Label Name="EnergyLabel" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,50,0,0"/>
         <ProgressBar Name="EnergyBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="60,35,0,0" Foreground="Goldenrod"/>
-        <Image Name="YouSprite" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="41,130,0,0"/>
+        <Image Name="YouSprite" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="41,115,0,0"/>
         <Image Name="EnemySprite" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="650,42,0,0"/>
-        <Image Name="YouHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="159,226,0,0" Source="health.png"/>
-        <Image Name="EnemyHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="487,147,0,0" Source="health.png"/>
+        <Image Name="YouHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="41,235,0,0" Source="health.png"/>
+        <Image Name="EnemyHealth" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="601,145,0,0" Source="health.png"/>
         <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="25" Margin="30,25,0,0" Source="energy.png"/>
         <Button Name="FleeButton" Content="Flee" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="288,344,0,0" Height="52" Background="LightBlue" BorderBrush="CornflowerBlue" Click="FleeButton_Click" />
-
+        <ListBox Name="PickScreen"  HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="344" Margin="425,330,0,0"/>
+        <Image Name="Potion1" Margin="425,273,312,80"/>
+        <Image Name="Potion2" Margin="464,273,273,80"/>
+        <Label Name="DamageLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="288,138,0,0" Height="55" Width="211" FontSize="20"/>
 
     </Grid>
 </Window>

@@ -131,5 +131,8 @@
     <Resource Include="leaf.png" />
     <Resource Include="water.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="potion.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

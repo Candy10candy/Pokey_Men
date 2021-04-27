@@ -23,36 +23,18 @@ namespace Pokey_Men
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void SparkyButton_Click(object sender, RoutedEventArgs e)
-        {
+            
 
-            Window1 secondWindow = new Window1();
-
-            secondWindow.makeBoom();
-
-            secondWindow.Show();
-            Close();
 
         }
 
-        private void DampButton_Click(object sender, RoutedEventArgs e)
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
         {
             Window1 secondWindow = new Window1();
 
-            secondWindow.makeDamp();
-
-            secondWindow.Show();
-            Close();
-
-        }
-
-        private void LeafButton_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 secondWindow = new Window1();
-
-            secondWindow.makeLeaf();
+            secondWindow.Start();
 
             secondWindow.Show();
             Close();
