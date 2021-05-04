@@ -14,8 +14,8 @@
         <Button Name="Heal" Content="Heal 25 HP x2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Margin="288,287,0,0" Height="52" Click="Heal_Click" Background="LightBlue" BorderBrush="CornflowerBlue"/>
         <ProgressBar Name="YourHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="75,244,0,0" Foreground="LimeGreen"/>
         <ProgressBar Name="EnemyHPBar" HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="639,152,0,0" Foreground="LimeGreen"/>
-        <Label Name="YourName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,84,0,0" Width="205"/>
-        <Label Name="EnemyName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="646,10,0,0" Width="136"/>
+        <Label Name="YourName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,84,0,0" Width="205" HorizontalContentAlignment="Center"/>
+        <Label Name="EnemyName" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="633,10,0,0" Width="136" HorizontalContentAlignment="Center"/>
         <Label Name="YourHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,259,0,0" Width="130"/>
         <Label Name="EnemyHP" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="639,167,0,0" Width="130"/>
         <Label Name="EnergyLabel" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,50,0,0"/>
@@ -29,7 +29,7 @@
         <ListBox Name="PickScreen"  HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="344" Margin="425,330,0,0"/>
         <Image Name="Potion1" Margin="425,273,312,80"/>
         <Image Name="Potion2" Margin="464,273,273,80"/>
-        <Label Name="DamageLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="288,138,0,0" Height="55" Width="211" FontSize="20"/>
+        <Label Name="DamageLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="193,138,241,0" Height="55" Width="358" FontSize="20" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

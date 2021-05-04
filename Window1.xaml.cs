@@ -35,6 +35,7 @@ namespace Pokey_Men
         public int j = 0;
         public bool turn = true;
         public int lastDamage = 0;
+        public string deal = "";
         
         
         public Window1()
@@ -82,7 +83,7 @@ namespace Pokey_Men
 
             if (lastDamage != 0)
             {
-                DamageLabel.Content = "Dealt " + lastDamage + " damage!";
+                DamageLabel.Content = deal + "dealt " + lastDamage + " damage!";
             }
             else
             {
@@ -180,14 +181,18 @@ namespace Pokey_Men
                   
                 }
 
+                deal = "You ";
                 turn = false;
                 worker.ReportProgress(0);
 
-                System.Threading.Thread.Sleep(600);
+                System.Threading.Thread.Sleep(1000);
 
                 CompTurn();
 
-                System.Threading.Thread.Sleep(600);
+                deal = "Opponent ";
+
+                worker.ReportProgress(0);
+                System.Threading.Thread.Sleep(800);
 
                 team[i].energy += 2;
 
