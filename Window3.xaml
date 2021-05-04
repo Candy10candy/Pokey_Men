@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pokey_Men"
         mc:Ignorable="d"
-        Title="Window3" Height="450" Width="800">
+        Title="Window3" Height="450" Width="800" Background="Pink">
     <Grid>
-        <Label Content="You Lose!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="147,110,-45,0" Height="309" Width="690" FontSize="100"/>
+        <Label Content="You Lose!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="152,110,-50,0" Height="309" Width="690" FontSize="100"/>
 
     </Grid>
 </Window>

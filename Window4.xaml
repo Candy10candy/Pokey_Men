@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pokey_Men"
         mc:Ignorable="d"
-        Title="Window4" Height="450" Width="800">
+        Title="Window4" Height="450" Width="800" Background="LightBlue">
     <Grid>
-        <Label Content="You Fled!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="147,97,-125,0" Height="312" Width="770" FontSize="100"/>
+        <Label Content="You Fled!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,120,-138,-13" Height="312" Width="770" FontSize="100"/>
 
     </Grid>
 </Window>
